@@ -18,6 +18,7 @@ The Mapbox MCP Server transforms any AI agent or application into a geospatially
 - **Static map images** to create visual representations of locations, routes, and geographic data
 - **Offline geospatial calculations** for distance, area, bearing, buffers, and spatial analysis without requiring API calls
 
+Note: Although below shows ClaudeCode, we have found Cursor to work even better, allowing us to usethe latest Claude models, and easily interchange among others. Cursor is free with .edu email too. 
 ![Mapbox MCP Server Demo](./assets/mapbox_mcp_server.gif)
 
 Mapbox MCP Server provides the spatial intelligence to make our outreach easier that initially will be built for testing in a southeastern Virginia community: 
