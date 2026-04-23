@@ -20,11 +20,11 @@ The Mapbox MCP Server transforms any AI agent or application into a geospatially
 
 ![Mapbox MCP Server Demo](./assets/mapbox_mcp_server.gif)
 
-Mapbox MCP Server provides the spatial intelligence to make our outreach easier that initially will be built as follows for Portsmouth's most struggling community: 
+Mapbox MCP Server provides the spatial intelligence to make our outreach easier that initially will be built for testing in a southeastern Virginia community: 
 
-# 🏡 H1S Portsmouth Check-Ins
+# 🏡 H1S Community Check-Ins
 
-A simple, scalable system for coordinating monthly door-to-door wellness check-ins across Portsmouth, VA — combining walkable zones, real-time mapping, and a branded check-in experience through checkins.org, all integrated with Slack and WhatsApp for easy use in the field.
+A simple, scalable system for coordinating monthly door-to-door wellness check-ins across the community — combining walkable zones, real-time mapping, and a branded check-in experience through checkins.org, all integrated with Slack and WhatsApp for easy use in the field.
 
 Volunteers are assigned small, easy-to-walk zones (about 2 hours each) with clear routes and balanced coverage. The system shows what has been completed, what still needs visits, and where gaps exist — all updated in real time.
 
