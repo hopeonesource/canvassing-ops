@@ -18,9 +18,53 @@ The Mapbox MCP Server transforms any AI agent or application into a geospatially
 - **Static map images** to create visual representations of locations, routes, and geographic data
 - **Offline geospatial calculations** for distance, area, bearing, buffers, and spatial analysis without requiring API calls
 
-Whether you're building an AI travel assistant, logistics optimizer, location-based recommender, or any application that needs to understand "where", the Mapbox MCP Server provides the spatial intelligence to make it possible. You can also enable it on popular clients like Claude Desktop and VS Code. See below for details
-
 ![Mapbox MCP Server Demo](./assets/mapbox_mcp_server.gif)
+
+Mapbox MCP Server provides the spatial intelligence to make our outreach easier that initially will be built as follows for Portsmouth's most struggling community: 
+
+# 🏡 H1S Portsmouth Check-Ins
+
+A simple, scalable system for coordinating monthly door-to-door wellness check-ins across Portsmouth, VA — combining walkable zones, real-time mapping, and a branded check-in experience through checkins.org, all integrated with Slack and WhatsApp for easy use in the field.
+
+Volunteers are assigned small, easy-to-walk zones (about 2 hours each) with clear routes and balanced coverage. The system shows what has been completed, what still needs visits, and where gaps exist — all updated in real time.
+
+Each home visit is time-stamped and tied to a volunteer’s identity, which is **automatically assigned from their Slack handle or WhatsApp display name**. This ensures accountability while **keeping personal details private**, with phone numbers and email addresses never exposed.
+
+The map always displays the **last visit date and time for every location**, ensuring no home is overlooked and all activity stays current within a rolling 30-day view.
+
+Volunteers can start a check-in directly from Slack or WhatsApp. A simple command or link opens a pre-filled form on **checkins.org**, including:
+- Volunteer identity (auto-filled from Slack or WhatsApp)  
+- Assigned zone  
+- Address  
+- Last visit date and time (if available)  
+
+After submission, the system automatically:
+- Logs the visit (time, location, result)
+- Updates the live map and coverage status
+- Sends a confirmation back to Slack or WhatsApp
+- Tracks progress toward full neighborhood coverage
+- Updates points and leaderboard standings
+
+If no one answers the door, the visit is still logged as **“Not Home.”** These homes are automatically flagged for a **second attempt within 7–14 days**, ideally at a different time of day. After two attempts, the home rolls into the next monthly cycle — ensuring consistent, respectful outreach without gaps.
+
+The system is designed to work in plain language. Volunteers and leaders can ask simple questions like:
+- “Where should I go next?”
+- “What areas haven’t been visited this month?”
+- “Which homes need a second attempt?”
+
+And receive clear answers with maps and next steps.
+
+A lightweight points and leaderboard system encourages consistency and recognizes effort, while maintaining focus on meaningful engagement and follow-up.
+
+This repository serves as the coordination layer for:
+- Zone planning and assignments  
+- Route optimization  
+- Coverage tracking  
+- Check-in logging  
+- Slack and WhatsApp integration  
+- Map-based visibility  
+
+Built for simplicity in the field, clarity for leadership, and scalability across communities — all while maintaining a trusted, human-centered experience through **checkins.org**.
 
 # Usage
 
